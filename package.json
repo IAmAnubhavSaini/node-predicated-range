@@ -1,0 +1,35 @@
+{
+  "name": "node-predicated-range",
+  "version": "1.0.0",
+  "description": "Given the range and predicates, generate output array",
+  "license": "MIT",
+  "repository": "iamanubhavsaini/node-predicated-range",
+  "author": {
+    "name": "Anubhav Saini",
+    "email": "iamanubhavsaini@gmail.com",
+    "url": "http://the-diary-of-a-wimpy-coder.blogspot.in/"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "range",
+    "predicates",
+    "map",
+    "ecmascript",
+    "tool"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
